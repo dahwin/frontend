@@ -10,7 +10,7 @@ function App() {
   const [desc, setDesc] = useState('')
 
   const addTodoHandler = () => {
-    const url = 'http://127.0.0.1:8000/api/todo';
+    const url = 'http://localhost:8000/api/todo';
     const headers = {
       'accept': 'application/json',
       'Content-Type': 'application/json'
