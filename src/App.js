@@ -11,6 +11,8 @@ function App() {
 
   const addTodoHandler = () => {
     const url = 'http://localhost:8000/api/todo';
+    console.log('addTodoHandler working')
+    
     const headers = {
       'accept': 'application/json',
       'Content-Type': 'application/json'
